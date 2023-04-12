@@ -9,8 +9,8 @@ monthchange=0
 profits=[]
 dates= []
 
-file_load= os.path.join(r"C:\Users\nickm\OneDrive\Desktop\repos\python_challenge\PyBank\analysis\budget_data.csv")
-file_output=os.path.join(r"C:\Users\nickm\OneDrive\Desktop\repos\python_challenge\PyBank\analysis\analysis_data.csv")
+file_load= os.path.join("budget_data.csv")
+file_output=os.path.join("outputPyBank.csv")
 
 with open (file_load) as file:
     reader=csv.reader(file)

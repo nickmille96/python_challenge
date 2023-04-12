@@ -1,7 +1,8 @@
 import csv, os
 
-file_load=(r"C:\Users\nickm\OneDrive\Desktop\repos\python_challenge\Pypoll\analysis\election_data.csv")
-file_output=(r"C:\Users\nickm\OneDrive\Desktop\repos\python_challenge\Pypoll\analysis\analysis_data.csv")
+file_load=("election_data.csv")
+file_output=("outputPypoll.csv")
+
 
 totalvotes= 0
 winnercount= 0
